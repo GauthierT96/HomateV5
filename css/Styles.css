@@ -1,0 +1,101 @@
+* {box-sizing: border-box;}
+
+html {
+    font-size: 0.625em;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+@font-face {
+    font-family: branding;
+    src: url("../font's/Latinotype - Branding-Black.otf");
+}
+
+
+.loader{
+
+    position: fixed;
+    top:0;
+    left: 0;
+    background: lightgrey;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/*****************************
+HEADER
+ */
+
+.header {
+    overflow: hidden;
+    padding: 2rem 1rem;
+    position: relative;
+}
+
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 1.2rem;
+    text-decoration: none;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    border-radius: 0.4rem;
+}
+
+.header a.logo {
+    font-size: 2.5rem;
+    font-weight: bold;
+
+
+    /*margin-left: 24.1rem;*/
+}
+
+.header img{
+    width: 23.6rem;
+    height: 7.7rem;
+}
+
+.header a:hover {
+    background-color: #ddd;
+    color: black;
+    border-radius: 10px;
+}
+
+.header a.active {
+    background: #FC7F26 0% 0% no-repeat padding-box;
+    color: white;
+    border-radius: 10px;
+}
+
+.header-right {
+    float: right;
+    padding-top: 2.4rem;
+    /*margin-right: 42rem;*/
+}
+
+.header-right a{
+    font-family: normal normal medium Raleway;
+    font-size: 2rem;
+
+}
+
+
+
+@media screen and (max-width: 500px) {
+    div.header-right{
+        display: none;
+    }
+
+    .logo{
+        margin: 0 auto;
+    }
+
+}

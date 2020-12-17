@@ -5,25 +5,9 @@
     src: url("../font's/Latinotype - Branding-Black.otf");
 }
 
-@font-face {
-    font-family: Raleway;
-    src: url("../font's/Raleway-Regular.ttf");
-}
-
-
-
-
-#loader{
-	position: fixed;
-	width: 100%;
-	height: 100vh;
-	background: #21242d url(/assets/schuivers.png) no-repeat center;
-	z-index: 99999;
-}
-
 .banner{
     content: "";
-    background-image: url("../assets/vrouwavectablet.jpg.png");
+    background-image: url("../assets/vrouwavectablet.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     width: 100%;
@@ -31,22 +15,10 @@
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: content-box;
-    height: 35vw;
+    height: 50vw;
 }
 
-.header a{
-   
-        font-family: Raleway;
-}
 
-a.logo{
-    padding-left:3%;
-}
-
-.header-right{
-
-    padding-right: 5%;
-}
 
 .banner div#txt{
     position: relative;
@@ -54,7 +26,6 @@ a.logo{
     padding-top: 10%;
     width: 40%;
     margin-bottom: 0rem;
-    font-family: Raleway;
 
 }
 
@@ -85,7 +56,7 @@ a.logo{
     margin-left: 0;
     background-color: #FC7F26;
     color: #FC7F26;
-    border-bottom: 1.0rem solid #FC7F26;
+    border-bottom: 0.4rem solid #FC7F26;
 
 }
 
@@ -104,7 +75,7 @@ a.logo{
 .info{
     text-align: center;
     background-color: #EEEEEE;
-    font-size: 3.0rem;
+    font-size: 3.4rem;
     font-family: Raleway;
 }
 
@@ -121,7 +92,6 @@ a.logo{
     margin: 0 auto;
     padding-top: 4.4rem;
     padding-bottom: 10rem;
-    font-size: 2.8rem;
 }
 
 #bullet{
@@ -148,7 +118,7 @@ a.logo{
     font-family: branding;
     font-weight: bold;
     color: black;
-    padding-top: 5rem;
+    padding-top: 12rem;
 }
 
 .hr_werk{
@@ -163,25 +133,24 @@ a.logo{
 p.introductie{
     width: 65%;
     text-align: center;
-    margin: 10px auto;
-    font-size: 3.0rem;
+    margin: 0 auto;
+    font-size: 3.4rem;
     font-family: Raleway;
     padding-top: 4.85rem;
-    
 }
 
 div.flex-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 8.2rem;
+    padding-top: 13.2rem;
     width: 90%;
     margin: 0 auto;
 }
 
 
 div.img img{
-    width: 9rem;
+    width: 9.8rem;
     margin-right: 2.5rem;
 }
 
@@ -194,7 +163,7 @@ div.flex-text h3{
 }
 
 div.flex-text p{
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     font-family: Raleway;
     width: 100%;
     padding-bottom: 2.4rem;
@@ -541,7 +510,6 @@ div#future img{
     /* --------------------------------------------------------------------------------------------------------------BANNER-------*/
     #titel{
         font-size: 4.4rem;
-        padding-top: 20px;
     }
 
     .banner p{
@@ -597,7 +565,7 @@ div#future img{
     /* --------------------------------------------------------------------------------------------------------------WERKWIJZE-------*/
 
     div.flex div.flex1{
-        padding-bottom: 27rem;
+        padding-bottom: 38rem;
         padding-left: 1rem;
     }
 
@@ -607,9 +575,8 @@ div#future img{
     }
 
     div.img img{
-        
-        margin-left: 10px;
-
+        width: 4.8rem;
+        height: 5.8rem;
     }
 
     div.flex-text h3{

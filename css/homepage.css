@@ -47,7 +47,7 @@ a.logo{
 .banner div#txt{
      position: relative;
     padding-left: 10%;
-
+    padding-top: 8%;
     width: 40%;
     margin-bottom: 0rem;
     font-family: Raleway;
@@ -344,6 +344,7 @@ div#future img{
             padding-left: 0rem;
             width: 70%;
             text-align: center;
+          
         }
 
         .banner hr{

@@ -629,8 +629,8 @@ div#future img{
     /* --------------------------------------------------------------------------------------------------------------WERKWIJZE-------*/
 
     div.flex div.flex1{
-        padding-bottom: 38rem;
-        padding-left: 1rem;
+        padding-bottom: 25rem;
+        padding-left: 2rem;
     }
 
     p.introductie{
@@ -639,8 +639,8 @@ div#future img{
     }
 
     div.img img{
-        width: 4.8rem;
-        height: 5rem;
+        width: 40px;
+
     }
 
     div.flex-text h3{
@@ -671,5 +671,13 @@ div#future img{
         width: 100%;
     }
 
+
+}
+
+@media screen and (max-width: 320px){
+    div.flex div.flex1{
+        padding-bottom: 35rem;
+        padding-left: 2rem;
+    }
 
 }

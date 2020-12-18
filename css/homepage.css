@@ -39,12 +39,16 @@ a.logo{
     padding-left:3%;
 }
 
+.iconify:hover{
+    opacity: 70%;
+}
 .header-right{
 
     padding-right: 5%;
 }
 
 .banner div#txt{
+    padding-top: 10%;
      position: relative;
     padding-left: 10%;
     width: 40%;

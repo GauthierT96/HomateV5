@@ -59,7 +59,6 @@ a.logo {
 }
 
 .banner div#txt div#icons {
-
     height: 100%;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -491,6 +490,26 @@ div#form input[type=submit] {
 
     }
 
+    div.flex #flex1-1{
+        padding-bottom: 60rem;
+    }
+
+    div.flex #flex1-2{
+        padding-bottom: 60rem;
+    }
+
+    div.flex #flex1-3{
+        padding-bottom: 80rem;
+    }
+
+    div.flex #flex1-4{
+        padding-bottom: 50rem;
+    }
+
+    div.flex #flex1-5{
+        padding-bottom: 50rem;
+    }
+
     /* --------------------------------------------------------------------------------------------------------------future-------*/
     div#future div h2 {
         font-size: 6.4rem;
@@ -540,6 +559,26 @@ div#form input[type=submit] {
 
     #merken {
         width: 100%;
+    }
+
+    div.flex #flex1-1{
+        padding-bottom: 40rem;
+    }
+
+    div.flex #flex1-2{
+        padding-bottom: 40rem;
+    }
+
+    div.flex #flex1-3{
+        padding-bottom: 40rem;
+    }
+
+    div.flex #flex1-4{
+        padding-bottom: 40rem;
+    }
+
+    div.flex #flex1-5{
+        padding-bottom: 40rem;
     }
 
     /* --------------------------------------------------------------------------------------------------------------future-------*/

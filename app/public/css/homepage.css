@@ -10,15 +10,15 @@
     src: url("../font's/Raleway-Regular.ttf");
 }
 
-#loader{
+#loader {
     position: fixed;
     width: 100%;
     height: 100vh;
-    background: #21242d url(/assets/schuivers.png) no-repeat center;
+    background: #21242d url(/app/public/assets/schuivers.png) no-repeat center;
     z-index: 99999;
 }
 
-.banner{
+.banner {
     content: "";
     background-image: url("../assets/vrouwavectablet.jpg.png");
     background-repeat: no-repeat;
@@ -31,25 +31,26 @@
     height: 35vw;
 }
 
-.header a{
-        font-family: Raleway;
+.header a {
+    font-family: Raleway;
 }
 
-a.logo{
-    padding-left:3%;
+a.logo {
+    padding-left: 3%;
 }
 
-.iconify:hover{
+.iconify:hover {
     opacity: 70%;
 }
-.header-right{
+
+.header-right {
 
     padding-right: 5%;
 }
 
-.banner div#txt{
-    padding-top: 10%;
-     position: relative;
+.banner div#txt {
+    padding-top: 1%;
+    position: relative;
     padding-left: 10%;
     width: 40%;
     margin-bottom: 0rem;
@@ -57,7 +58,7 @@ a.logo{
 
 }
 
-.banner div#txt div#icons{
+.banner div#txt div#icons {
 
     height: 100%;
     -moz-box-sizing: border-box;
@@ -65,21 +66,22 @@ a.logo{
     box-sizing: content-box;
 }
 
-.banner div#txt #icons a{
+.banner div#txt #icons a {
     color: black;
 }
 
-#titel{
+#titel {
     font-size: 8.4rem;
     color: black;
     font-weight: bolder;
     opacity: 1;
     text-align: left;
     font-family: branding;
-    opacity: 1; !important;
+    opacity: 1;
+!important;
 }
 
-.banner hr{
+.banner hr {
     max-width: 11.2rem;
     margin-left: 0;
     background-color: #FC7F26;
@@ -88,34 +90,34 @@ a.logo{
 
 }
 
-.banner p{
+.banner p {
     text-align: left;
     font-size: 3.9rem;
     font-family: Raleway;
 }
 
-.iconify{
+.iconify {
     font-size: 5rem;
 }
 
 /* --------------------------------------------------------------------------------------------------------------INFO-------*/
 
-.info{
+.info {
     text-align: center;
     background-color: #EEEEEE;
     font-size: 3.4rem;
     font-family: Raleway;
 }
 
-#hr{
-    height:0;
+#hr {
+    height: 0;
     max-width: 11.2rem;
     margin: 0 auto;
     border-bottom: 0.4rem solid #FC7F26;
     padding-top: 12.5rem;
 }
 
-.info p{
+.info p {
     width: 70%;
     margin: 0 auto;
     padding-top: 4.4rem;
@@ -123,25 +125,24 @@ a.logo{
     font-size: 2.8rem;
 }
 
-#bullet{
+#bullet {
     display: flex;
     justify-content: center;
     padding-bottom: 5rem;
 }
 
-#bullet img{
+#bullet img {
     padding: 4rem;
     width: 15%;
 }
 
 /* --------------------------------------------------------------------------------------------------------------WERKWIJZE-------*/
-#voordelen , #werkwijze{
+#voordelen, #werkwijze {
     margin-bottom: 7rem;
 }
 
 
-
-.titelwerkwijze{
+.titelwerkwijze {
     font-size: 8.4rem;
     text-align: center;
     font-family: branding;
@@ -150,8 +151,8 @@ a.logo{
     padding-top: 5rem;
 }
 
-.hr_werk{
-    height:0;
+.hr_werk {
+    height: 0;
     max-width: 11.2rem;
     margin: 0 auto;
     border-bottom: 0.4rem solid #FC7F26;
@@ -159,7 +160,7 @@ a.logo{
     border-top: white;
 }
 
-p.introductie{
+p.introductie {
     width: 65%;
     text-align: center;
     margin: 10px auto;
@@ -168,7 +169,7 @@ p.introductie{
     padding-top: 4.85rem;
 }
 
-div.flex-container{
+div.flex-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -178,12 +179,12 @@ div.flex-container{
 }
 
 
-div.img img{
+div.img img {
     width: 9rem;
     margin-right: 2.5rem;
 }
 
-div.flex-text h3{
+div.flex-text h3 {
     font-size: 3.6rem;
     color: black;
     font-family: branding;
@@ -191,7 +192,7 @@ div.flex-text h3{
     padding-bottom: 2.4rem;
 }
 
-div.flex-text p{
+div.flex-text p {
     font-size: 2.5rem;
     font-family: Raleway;
     width: 100%;
@@ -199,7 +200,7 @@ div.flex-text p{
 }
 
 
-.flex1{
+.flex1 {
     display: flex;
     padding-bottom: 30rem;
     padding-right: 5rem;
@@ -207,31 +208,30 @@ div.flex-text p{
     width: 100%;
 }
 
-.flex{
+.flex {
     display: flex;
 }
 
-#merken{
+#merken {
     width: 43%;
 
 }
 
 
-
 /* --------------------------------------------------------------------------------------------------------------future-------*/
 
-div#future{
+div#future {
     display: flex;
     justify-content: center;
-    background-color: #EEEEEE ;
+    background-color: #EEEEEE;
 }
 
-div#future div{
+div#future div {
     padding-top: 11.4rem;
     width: 40%;
 }
 
-div#future div hr{
+div#future div hr {
     max-width: 11.2rem;
     margin-left: 0;
     background-color: #FC7F26;
@@ -239,7 +239,7 @@ div#future div hr{
     border-bottom: 0.4rem solid #FC7F26;
 }
 
-div#future div h2{
+div#future div h2 {
     font-size: 8.4rem;
     font-weight: bold;
     font-family: branding;
@@ -248,251 +248,261 @@ div#future div h2{
     margin: 0rem;
 }
 
-div#future img{
+div#future img {
     padding-top: 11.4rem;
     padding-bottom: 13.6rem;
 }
 
 /* --------------------------------------------------------------------------------------------------------------CONTACT-------*/
 
-    div#contact{
-        background: transparent linear-gradient(180deg, #21AECE 0%, #0DBA99 100%) 0% 0% no-repeat padding-box;
-        display: flex;
-        align-items: flex-start;
-        justify-content: center;
+div#contact {
+    background: transparent linear-gradient(180deg, #21AECE 0%, #0DBA99 100%) 0% 0% no-repeat padding-box;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
 
+}
+
+div#form form.form {
+    display: flex;
+    flex-direction: column;
+}
+
+div#textvak {
+    padding-right: 15rem;
+    padding-top: 15.6rem;
+    margin-bottom: 18.5rem;
+}
+
+div#vragen h2 {
+    color: white;
+    font-weight: bold;
+    font-family: branding;
+    font-size: 3.2rem;
+}
+
+div#vragen h3 {
+    color: white;
+    font-size: 2.2rem;
+}
+
+div#vragen hr {
+    max-width: 11.2rem;
+    margin-left: 0;
+    background-color: white;
+    color: white;
+    border-bottom: 0.4rem solid white;
+}
+
+div#locatie {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 1.8rem;
+    font-family: Raleway;
+}
+
+div#icoons a {
+    color: white;
+}
+
+div#form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 15.6rem;
+    padding-left: 15rem;
+    width: 50%;
+    margin-bottom: 18.5rem;
+}
+
+div#form input[type=text] {
+
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    border: white;
+}
+
+div#form textarea {
+
+    padding-top: 1.5rem;
+    padding-bottom: 4.5rem;
+    font-size: 1.8rem;
+    border-radius: 1rem;
+    border: white;
+    margin-bottom: 1rem;
+}
+
+div#form input[type=submit] {
+    background-color: #FC7F26;
+    color: white;
+    font-size: 1.8rem;
+    padding: 1rem;
+    border: #FC7F26;
+    border-radius: 1rem;
+    width: 40%;
+}
+
+
+@media screen and (max-width: 1616px) {
+    .banner div#txt {
+        margin: 0 auto;
+        padding-left: 0rem;
+        width: 70%;
+        text-align: center;
     }
 
-    div#textvak{
-        padding-right: 15rem;
-        padding-top: 15.6rem;
-        margin-bottom: 18.5rem;
+    .banner {
+        background-image: url("../assets/vrouwavectablet 3.png");
     }
 
-    div#vragen h2{
-        color: white;
-        font-weight: bold;
-        font-family: branding;
-        font-size: 3.2rem;
+    .banner hr {
+        text-align: center;
+        margin-left: auto;
     }
 
-    div#vragen h3{
-        color: white;
-        font-size: 2.2rem;
+    .banner p {
+        text-align: center;
     }
 
-    div#vragen hr{
-        max-width: 11.2rem;
-        margin-left: 0;
-        background-color: white;
-        color: white;
-        border-bottom: 0.4rem solid white;
+    #titel {
+        text-align: center;
     }
-
-    div#locatie{
-        display: flex;
-        justify-content: space-between;
-        color: white;
-        font-size: 1.8rem;
-        font-family: Raleway;
-    }
-
-    div#icoons a{
-        color: white;
-    }
-
-    div#form{
-        display: flex;
-        flex-direction: column;
-        padding-top: 15.6rem;
-        padding-left: 15rem;
-        width: 50%;
-        margin-bottom: 18.5rem;
-    }
-
-    div#form input[type=text]{
-
-        padding-top: 1.5rem;
-        padding-bottom: 1.5rem;
-        font-size: 1.8rem;
-        margin-bottom: 1rem;
-        border-radius: 1rem;
-        border: white;
-    }
-
-    div#form textarea{
-
-        padding-top: 1.5rem;
-        padding-bottom: 4.5rem;
-        font-size: 1.8rem;
-        border-radius: 1rem;
-        border: white;
-        margin-bottom: 1rem;
-    }
-
-    div#form input[type=submit]{
-        background-color: #FC7F26;
-        color: white;
-        font-size: 1.8rem;
-        padding: 1rem;
-        border: #FC7F26;
-        border-radius: 1rem;
-        width: 40%;
-    }
-
-
-    @media screen and (max-width: 1616px){
-        .banner div#txt{
-            margin: 0 auto;
-            padding-left: 0rem;
-            width: 70%;
-            text-align: center;
-        }
-
-        .banner{
-            background-image: url("../assets/vrouwavectablet 3.png");
-        }
-
-        .banner hr{
-            text-align: center;
-            margin-left: auto;
-        }
-
-        .banner p{
-            text-align: center;
-        }
-
-        #titel{
-            text-align: center;
-        }
-    }
+}
 
 /* --------------------------------------------------------------------------------------------------------------1166-------*/
 
 @media screen and (max-width: 1166px) {
     /* --------------------------------------------------------------------------------------------------------------BANNER-------*/
-
-    
-    .banner{
+    .banner {
         background-image: url("../assets/vrouwavectablet 1.png");
     }
 
     /* --------------------------------------------------------------------------------------------------------------WERKWIJZE-------*/
-    div.flex div.flex1{
+    div.flex div.flex1 {
         padding-bottom: 45rem;
     }
 
-    div.flex-text p{
+    div.flex-text p {
         font-size: 2.5rem;
     }
 
     /* --------------------------------------------------------------------------------------------------------------future-------*/
-    div#future div{
+    div#future div {
 
         width: 50%;
     }
 
-    .banner div#txt{
+    .banner div#txt {
         padding-left: 0%;
         padding-top: 10%;
         width: 100%;
         text-align: center;
     }
 
-    #titel{
+    #titel {
         text-align: center;
     }
 
-    .banner hr{
+    .banner hr {
         text-align: center;
         margin-left: auto;
     }
 
-    .banner p{
+    .banner p {
         text-align: center;
     }
 
 }
 
-@media screen and (max-width: 800px){
-    #titel{
+@media screen and (max-width: 800px) {
+    #titel {
         font-size: 5.4rem;
     }
 
-    .banner p{
+    .banner p {
         font-size: 3.5rem;
     }
 }
 
-@media screen and (max-width: 1110px){
-    .banner div#txt{
+@media screen and (max-width: 1110px) {
+    .banner div#txt {
         padding-top: 0rem;
     }
 
-    .banner{
+    .banner {
         height: 40vw;
+    }
+}
+
+@media screen and (max-width: 985px) {
+    .banner p {
+        font-size: 3.5rem;
+    }
+
+    #titel {
+        font-size: 5.4rem;
     }
 }
 
 /* --------------------------------------------------------------------------------------------------------------900-------*/
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 900px) {
     /* --------------------------------------------------------------------------------------------------------------BANNER-------*/
-
-
-    .banner div#txt{
+    .banner div#txt {
         padding-left: 0%;
         width: 100%;
         text-align: center;
     }
 
-    #titel{
+    #titel {
         text-align: center;
     }
 
-    .banner hr{
+    .banner hr {
         text-align: center;
         margin-left: auto;
     }
 
-    .banner p{
+    .banner p {
         text-align: center;
     }
 
-    .banner::before{
+    .banner::before {
         opacity: 0.4;
     }
 
     /* --------------------------------------------------------------------------------------------------------------INFO-------*/
-    .info p{
+    .info p {
         width: 90%;
         padding-bottom: 5rem;
     }
 
-    #bullet img{
+    #bullet img {
         height: 20rem;
         width: 20rem;
     }
 
     /* --------------------------------------------------------------------------------------------------------------WERKWIJZE-------*/
-    div.flex-container{
+    div.flex-container {
         width: 100%;
 
     }
 
     /* --------------------------------------------------------------------------------------------------------------future-------*/
-    div#future div h2{
+    div#future div h2 {
         font-size: 6.4rem;
     }
 
     /* --------------------------------------------------------------------------------------------------------------CONTACT-------*/
-
-    div#textvak{
+    div#textvak {
         padding-right: 5rem;
         padding-left: 1rem;
     }
 
-    div#form{
+    div#form {
         padding-left: 5rem;
         padding-right: 1rem;
     }
@@ -501,52 +511,53 @@ div#future img{
 
 /* --------------------------------------------------------------------------------------------------------------735-------*/
 
-@media screen and (max-width: 735px){
+@media screen and (max-width: 735px) {
     /* --------------------------------------------------------------------------------------------------------------BANNER-------*/
-    .banner div#txt{
+    .banner div#txt {
         padding-top: 2%;
         padding-bottom: 5rem;
     }
 
 
     /* --------------------------------------------------------------------------------------------------------------WERKWIJZE-------*/
-    div.flex-container{
+    div.flex-container {
         display: block;
         margin: 0 auto;
     }
-    .flex{
+
+    .flex {
         display: block;
     }
 
-    .flex1{
+    .flex1 {
         margin: 0 auto;
         height: 1rem;
     }
 
-    div.flex div.flex1{
+    div.flex div.flex1 {
         padding-bottom: 25rem;
     }
 
-    #merken{
+    #merken {
         width: 100%;
     }
 
     /* --------------------------------------------------------------------------------------------------------------future-------*/
-    div#future img{
+    div#future img {
         display: none;
     }
 
-    div#future div{
+    div#future div {
         padding-bottom: 11.4rem;
     }
 
     /* --------------------------------------------------------------------------------------------------------------CONTACT-------*/
-    div#contact{
+    div#contact {
         flex-direction: column;
 
     }
 
-    div#textvak{
+    div#textvak {
         width: 50%;
         padding: 0rem;
         margin: 0 auto;
@@ -554,7 +565,7 @@ div#future img{
         padding-top: 5rem;
     }
 
-    div#form{
+    div#form {
         width: 90%;
         padding: 0rem;
         margin: 0 auto;
@@ -566,50 +577,50 @@ div#future img{
 
 /* --------------------------------------------------------------------------------------------------------------680-------*/
 
-@media screen and (max-width: 680px){
+@media screen and (max-width: 680px) {
     /* --------------------------------------------------------------------------------------------------------------BANNER-------*/
-    #titel{
+    #titel {
         font-size: 4.4rem;
         padding-top: 20px;
     }
 
 
-    .banner{
+    .banner {
         height: auto;
         background-size: cover;
     }
 
 
-    .banner p{
-        font-size: 2.5rem;
-    }
-    /* --------------------------------------------------------------------------------------------------------------INFO-------*/
-    .info p{
+    .banner p {
         font-size: 2.5rem;
     }
 
-    #hr{
+    /* --------------------------------------------------------------------------------------------------------------INFO-------*/
+    .info p {
+        font-size: 2.5rem;
+    }
+
+    #hr {
         padding-top: 7rem;
     }
 
-    #bullet img{
+    #bullet img {
         padding: 0.5rem;
         width: 10rem;
         height: 10rem;
     }
 
     /* --------------------------------------------------------------------------------------------------------------WERKWIJZE-------*/
-    div.flex div.flex1{
+    div.flex div.flex1 {
         padding-bottom: 35rem;
     }
 
-    .titelwerkwijze{
+    .titelwerkwijze {
         font-size: 4.4rem;
     }
 
     /* --------------------------------------------------------------------------------------------------------------future-------*/
-
-    div#future div{
+    div#future div {
         width: 70%;
 
     }
@@ -619,71 +630,88 @@ div#future img{
 
 /* --------------------------------------------------------------------------------------------------------------420-------*/
 
-@media screen and (max-width: 420px){
+@media screen and (max-width: 420px) {
     /* --------------------------------------------------------------------------------------------------------------BANNER-------*/
-    .banner{
+    .banner {
         height: auto;
         background-size: cover;
     }
 
     /* --------------------------------------------------------------------------------------------------------------INFO-------*/
-
     .info p {
         font-size: 2rem;
     }
 
     /* --------------------------------------------------------------------------------------------------------------WERKWIJZE-------*/
+    div.flex div.flex1 {
 
-    div.flex div.flex1{
-        padding-bottom: 25rem;
         padding-left: 2rem;
     }
 
-    p.introductie{
+    p.introductie {
         width: 100%;
         font-size: 2rem;
     }
 
-    div.img img{
+    div.img img {
         width: 40px;
 
     }
 
-    div.flex-text h3{
+    div.flex-text h3 {
         font-size: 2.6rem;
 
     }
 
-    div.flex-text p{
+    div.flex-text p {
         font-size: 2rem;
     }
 
     /* --------------------------------------------------------------------------------------------------------------future-------*/
-
-    div#future div{
+    div#future div {
         width: 90%;
     }
 
-    div#future div h2{
+    div#future div h2 {
         font-size: 4rem;
     }
 
     /* --------------------------------------------------------------------------------------------------------------CONTACT-------*/
-    div#textvak{
+    div#textvak {
         width: 90%;
     }
 
-    div#form input[type=submit]{
+    div#form input[type=submit] {
         width: 100%;
     }
 
 
 }
 
-@media screen and (max-width: 320px){
-    div.flex div.flex1{
+@media screen and (max-width: 320px) {
+    div.flex div.flex1 {
         padding-bottom: 35rem;
         padding-left: 2rem;
+    }
+
+    div.flex #flex1-1{
+        padding-bottom: 50rem;
+    }
+
+    div.flex #flex1-2{
+        padding-bottom: 50rem;
+    }
+
+    div.flex #flex1-3{
+        padding-bottom: 50rem;
+    }
+
+    div.flex #flex1-4{
+        padding-bottom: 50rem;
+    }
+
+    div.flex #flex1-5{
+        padding-bottom: 50rem;
     }
 
 }

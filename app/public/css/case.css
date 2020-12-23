@@ -1,0 +1,10 @@
+
+#main{
+    display: flex;
+}
+
+div.rij{
+    display: flex;
+    justify-content: space-around;
+}
+
